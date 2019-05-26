@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container"> 
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <form id="registration">
+                    <div class="form-group">
+                        <label for="username"> Adınız: </label><br><br>
+                        <input type="text" id="username" name="username" data-note="Zəhmət olmasa adınızı daxil edin!" autocomplete="off"  class="form-control all"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="surname"> Soyadınız: </label><br><br>
+                        <input type="text" id="surname" name="surname" data-note="Zəhmət olmasa soyadınızı daxil edin!" autocomplete="off" class="form-control all"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Parol: </label><br><br>
+                        <input type="password" id="password"  minlength="6" name="password" data-note="Zəhmət olmasa parolunuzu daxil edin!"  autocomplete="off" class="form-control all">
+                    </div>
+                    <div class="form-group">
+                        <label for="password2"> Təkrar parol:</label><br><br>
+                        <input type="password" id="password2"  name="password2" data-note="Zəhmət olmasa parolunuzu tekrar daxil edin!" autocomplete="off" class="form-control all">
+                    </div> <br>
+                    <button type="submit" class="btn btn-success button">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
